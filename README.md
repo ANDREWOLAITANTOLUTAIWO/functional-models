@@ -66,12 +66,12 @@ The complete dataset was first one-hot encoded before it was split into training
 
 MLR models actual and predicted volume of water using Equation (7) and Equation (8) respectively:
 
-$Y_o^{(i)}= \theta_1I(i) + \theta_2S(i) + \theta_3R(i) + \theta_4T(i) + \theta_5t(i)+ \theta_6A(i) + \theta_7W(i) + \theta_8d(i) + \theta_9h(i)+o$		(7)
+$Y_o^{(i)}= \theta_1\mathrm{I}(i) + \theta_2\mathrm{S}(i) + \theta_3\mathrm{R}(i) + \theta_4\mathrm{T}(i) + \theta_5\mathrm{t}(i)+ \theta_6\mathrm{A}(i) + \theta_7\mathrm{W}(i) + \theta_8\mathrm{d}(i) + \theta_9\mathrm{h}(i) + \theta_o$		(7)
 
-Yp(i)= 1I(i)+2S(i)+3R(i)+4 T(i)+5t(i)+6 A(i)+7 W(i)+8 d(i)+9h(i)+o		(8)
+$Y_p^{(i)} = \theta_1\mathrm{I}(i) + \theta_2\mathrm{S}(i) + \theta_3\mathrm{R}(i) + \theta_4\mathrm{T}(i) + \theta_5\mathrm{t}(i)+ \theta_6\mathrm{A}(i) + \theta_7\mathrm{W}(i) + \theta_8\mathrm{d}(i) + \theta_9\mathrm{h}(i) + \theta_o$		(8)
 
-where i = (1, …, 1200) for 1200 examples or households; Yo is the actual volume of water used by a household; Yp is the predicted volume of water used by a household;  is the parameters; 
-o is the bias or y-intercept; I, S, R, T, t, A, W, d, and h are the selected explanatory variables. 
+where i = (1, …, 1200) for 1200 examples or households; $Y_o$ is the actual volume of water used by a household; $Y_p$ is the predicted volume of water used by a household; $\theta$ is the parameters; 
+$\theta_o$ is the bias or y-intercept; $\mathrm{I, S, R, T, t, A, W, d, and h}$ are the selected explanatory variables. 
 
 Coding the Polynomials
 Polynomials of higher degrees – quadratic, cubic, quartic and quintic polynomials as Equation (12), Equation (13), Equation (14) and Equation (15) respectively – were coded and tested for better accuracies than linear models. 
