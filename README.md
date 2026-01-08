@@ -95,11 +95,10 @@ The results of the experiments carried out in this research are presented and di
 
 Model Performances in Dry and Wet Seasons
 
-The model performances were evaluated with dry and wet season datasets. The results are shown in Table 2 and 3. RF model performed better than other models during training. The models performed better with wet season data than dry season data. 
-The high R2 values show that the model well learned the data during training and testing. 
+The model performances were evaluated with dry and wet season datasets. RF model performed better than other models during training. The models performed better with wet season data than dry season data. The high $R^2$ values show that the model well learned the data during training and testing. 
 
 Average Volume of Water Consumed by the Households
-The actual and predicted average volume of water consumed per day by the households is given in Table 4. Average volume of water consumed per day by the households in dry season is 147.35L, while average volume of water consumed per day in wet season is 167.35L. This suggests that poor households in the study area consume more water in wet season. An explanation could be that they practice rain water harvesting, and so they have access to more clean water in wet season than in dry season. 
+Average volume of water consumed per day by the households in dry season is 147.35L, while average volume of water consumed per day in wet season is 167.35L. This suggests that poor households in the study area consume more water in wet season. An explanation could be that they practice rain water harvesting, and so they have access to more clean water in wet season than in dry season. 
 
 Validation of Model Performances
 
