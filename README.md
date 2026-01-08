@@ -24,11 +24,9 @@ For nine features the space is nine-dimensional and the regression Equation beco
 
 $y^p= \theta_1x_1 + \theta_2x_2 + \theta_3x_3 + \theta_4x_4 + \theta_5x_5 + \theta_6x_6 + \theta_7x_7 + \theta_8x_8 + \theta_9x_9 + \theta_o$		                               (2)
 
-$\theta{_1}{_0}x_3$
-
 Equation (2) can be extended to form polynomials by creating new features from the variables x1… x9. Thus, second degree quadratic, third-degree cubic, fourth-degree quartic and fifth-degree quintic polynomials can be expressed respectively as follows:
 
-$y_2^p= \theta_1x_1^2 + \theta_2x_2^2 + \theta_3x_3^2 + \theta_4x_4^2 + \theta_5x_1x_2 + \theta_6x_3x_4 + \theta_7x_1x_3 + \theta_8x_1 + \theta_9x_2 + \{theta_1_0}x_3 + \theta_1_1x_4 + \theta_1_2x_5 + \theta_1_3x_6 + \theta_1_4x_7 + \theta_1_5x_8 + \theta_1_6x_9 + \theta_o$		                                                                                (3)
+$y_2^p= \theta_1x_1^2 + \theta_2x_2^2 + \theta_3x_3^2 + \theta_4x_4^2 + \theta_5x_1x_2 + \theta_6x_3x_4 + \theta_7x_1x_3 + \theta_8x_1 + \theta_9x_2 + \theta{_1}{_0}x_3 + \theta{_1}{_1}x_4 + \theta{_1}{_2}x_5 + \theta{_1}{_3}x_6 + \theta{_1}{_4}x_7 + \theta{_1}{_5}x_8 + \theta{_1}{_6}x_9 + \theta_o$		                                                                                (3)
 
 y3p= 1x13+ 2x23+3x33+ 4x43+ θ5x12+ 6x22+7x32+ 8x42+ 9x1x2+10x3x4+11x1x3+12 x1+13x2+ 14x3+15 x4+16 x5++17 x6+18x7+19 x8+20x9+o	                                                      (4)
 
