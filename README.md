@@ -24,7 +24,7 @@ For nine features the space is nine-dimensional and the regression Equation beco
 
 $y^p= \theta_1x_1 + \theta_2x_2 + \theta_3x_3 + \theta_4x_4 + \theta_5x_5 + \theta_6x_6 + \theta_7x_7 + \theta_8x_8 + \theta_9x_9 + \theta_o$		                               (2)
 
-${theta_1_0}x_3$
+${\theta_1_0}x_3$
 
 Equation (2) can be extended to form polynomials by creating new features from the variables x1… x9. Thus, second degree quadratic, third-degree cubic, fourth-degree quartic and fifth-degree quintic polynomials can be expressed respectively as follows:
 
