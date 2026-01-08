@@ -36,10 +36,6 @@ $y_5^p = \theta_1x_1^5 + \theta_2x_2^5 + \theta_3x_3^5 + \theta_4x_4^5 + \theta_
 
 MATERIALS AND METHODS
 
-Study Area
-
-The growing population of Nigeria’s Federal Capital City is concentrated at Nyanya-Mararaba Town where an estimated 70% of the people working in the city live. Covering an area of 14 square kilometers, Nyanya-Mararaba is a peri-urban town consisting of informal dwellings where many poor people find shelter. 
-
 Datasets
 
 This study use Nyanya-Mararaba datasets described in Taiwo et al., (2023). 
