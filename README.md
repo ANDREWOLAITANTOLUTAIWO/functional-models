@@ -120,7 +120,7 @@ $Y_{dry}^P = -524000 + 0.000285\mathrm{I} + 6.54\mathrm{S} + 1.35\mathrm{R} + 18
 $Y_{wet}^P = -649000 + 0.000304\mathrm{I} + 6.35\mathrm{S} + 1.07\mathrm{R} + 0.000223\mathrm{T} + 2.451\mathrm{t} - 0.0104\mathrm{A} + 0.0611\mathrm{W} + 0.0217\mathrm{d} + 0.2\mathrm{h} - 0.000968\mathrm{tA} + 0.0000436\mathrm{Wd} - 0.000499\mathrm{td} - 0.106\mathrm{t}^2 - 0.0000097\mathrm{A}^2 - 0.000508\mathrm{W}^2 + 0.0000638\mathrm{d}^2 + 0.000849\mathrm{t}^3 + 0.0000000345\mathrm{A}^3 + 0.000000401\mathrm{W}^3  - 0.0000000606\mathrm{d}^3$											                                            (18)
 
 where
-$Y_{dry}^P$ is the predicted volume of water consumed in dry season; $Y_{wet}^P$ is the predicted volume of water consumed in wet season; and \mathrm{I, S, R, T, t, A, W, d, h} are the explanatory variables. 
+$Y_{dry}^P$ is the predicted volume of water consumed in dry season; $Y_{wet}^P$ is the predicted volume of water consumed in wet season; and $\mathrm{I, S, R, T, t, A, W, d, h}$ are the explanatory variables. 
 
 Thus, if the values of the explanatory variables are known for any households, the functional models can be used to determine volume of water consumed (in liter per day) by the households in dry season and wet season respectively. Since planning water supply requires review of water consumption and projection to the future (Charlesworth et al., 2020), these functional models are useful for planning water supply to households where there is no WDN.
 
