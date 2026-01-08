@@ -26,7 +26,7 @@ $y^p = \theta_1x_1 + \theta_2x_2 + \theta_3x_3 + \theta_4x_4 + \theta_5x_5 + \th
 
 Equation (2) can be extended to form polynomials by creating new features from the variables x1… x9. Thus, second degree quadratic, third-degree cubic, fourth-degree quartic and fifth-degree quintic polynomials can be expressed respectively as follows:
 
-$y_2^p = \theta_1x_1^2 + \theta_2x_2^2 + \theta_3x_3^2 + \theta_4x_4^2 + \theta_5x_1x_2 + \theta_6x_3x_4 + \theta_7x_1x_3 + \theta_8x_1 + \theta_9x_2 + \theta_{10}x_3 + \theta_{11}x_4 + \theta_{12}x_5 + \theta_{13}x_6 + \theta_{14}x_7 + \theta_{15}x_8 + \theta_{16}x_9 + \theta_o$		                                                        (3)
+$y_2^p = \theta_1x_1^2 + \theta_2x_2^2 + \theta_3x_3^2 + \theta_4x_4^2 + \theta_5x_1x_2 + \theta_6x_3x_4 + \theta_7x_1x_3 + \theta_8x_1 + \theta_9x_2 + \theta_{10}x_3 + \theta_{11}x_4 + \theta_{12}x_5 + \theta_{13}x_6 + \theta_{14}x_7 + \theta_{15}x_8 + \theta_{16}x_9 + \theta_o$ (3)
 
 $y_3^p = \theta_1x_1^3 + \theta_2x_2^3 + \theta_3x_3^3 + \theta_4x_4^3 + \theta_5x_1^2 + \theta_6x_2^2 + \theta_7x_3^2 + \theta_8x_4^2 + \theta_9x_1x_2 + \theta_{10}x_3x_4 + \theta_{11}x_1x_3 + \theta_{12}x_1 + \theta_{13}x_2 + \theta_{14}x_3 + \theta_{15}x_4 + \theta_{16}x_5 + \theta_{17}x_6 + \theta_{18}x_7 + \theta_{19}x_8 + \theta_{20}x_9 + \theta_o$	                                                      (4)
 
@@ -71,7 +71,7 @@ $Y_o^{(i)}= \theta_1\mathrm{I}(i) + \theta_2\mathrm{S}(i) + \theta_3\mathrm{R}(i
 $Y_p^{(i)} = \theta_1\mathrm{I}(i) + \theta_2\mathrm{S}(i) + \theta_3\mathrm{R}(i) + \theta_4\mathrm{T}(i) + \theta_5\mathrm{t}(i)+ \theta_6\mathrm{A}(i) + \theta_7\mathrm{W}(i) + \theta_8\mathrm{d}(i) + \theta_9\mathrm{h}(i) + \theta_o$		(8)
 
 where i = (1, …, 1200) for 1200 examples or households; $Y_o$ is the actual volume of water used by a household; $Y_p$ is the predicted volume of water used by a household; $\theta$ is the parameters; 
-$\theta_o$ is the bias or y-intercept; $\mathrm{I, S, R, T, t, A, W, d, and h}$ are the selected explanatory variables. 
+$\theta_o$ is the bias or y-intercept; $\mathrm{I, S, R, T, t, A, W, d, h}$ are the selected explanatory variables. 
 
 Coding the Polynomials
 Polynomials of higher degrees – quadratic, cubic, quartic and quintic polynomials as Equation (12), Equation (13), Equation (14) and Equation (15) respectively – were coded and tested for better accuracies than linear models. 
