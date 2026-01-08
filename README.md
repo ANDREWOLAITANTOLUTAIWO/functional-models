@@ -105,7 +105,7 @@ Validation of Model Performances
 
 The validation of model performances is highlighted in Table 5 in the seasons. Visual inspection reveals that the model performance during validation is comparable to the performances during training and testing. Thus, the performances of the models were validated.  
 
-The polynomials described in section 3.4.2 – multi-quadratic, cubic and quintic polynomials – were validated and compared to the linear models. The third-degree polynomial gives better accuracies as a functional model to be used for evaluating volume of water consumed in urban poor households. It can also be seen in Figure 2 that the models accuracy increases with increasing number of features. But the accuracy gets to a point where it begins to decrease as more features were added. This confirms what researchers have observed as one of the characteristics of ML modeling (Bellman, 2003; Pires & Branco, 2019; Ahmad & Nassif, 2022). 
+The polynomials were validated and compared to the linear models. The third-degree polynomial gives better accuracies as a functional model to be used for evaluating volume of water consumed in urban poor households. It can also be seen in Figure 2 that the models accuracy increases with increasing number of features. But the accuracy gets to a point where it begins to decrease as more features were added. This confirms what researchers have observed as one of the characteristics of ML modeling (Bellman, 2003; Pires & Branco, 2019; Ahmad & Nassif, 2022). 
 
 Functional Models for Predicting Household Water Consumption
 
@@ -113,14 +113,14 @@ Based on the above modeling and evaluation, functional models that can be used t
 
 $Y_{dry}^P = 162 + 0.0003\mathrm{I} + 5.39\mathrm{S} + 0.331\mathrm{R} + 1.80\mathrm{T} - 2.01\mathrm{t} - 0.0003\mathrm{A} + 0.0804\mathrm{W} + 0.0142\mathrm{d} - 0.0094\mathrm{h}$    						                                                                                    (15)
 
-$Y_{wet}^P = 15.4 + 0.0003\mathrm{I} + 5.24\mathrm{S} + 0.108\mathrm{R} + 4.43\mathrm{hT} - 2.03\mathrm{t} + 0.0003\mathrm{A} + 0.0495\mathrm{W} + 0.0012\mathrm{d} - 0.007\mathrm{h}$													                                                                                (16)
+$Y_{wet}^P = 15.4 + 0.0003\mathrm{I} + 5.24\mathrm{S} + 0.108\mathrm{R} + 4.43\mathrm{T} - 2.03\mathrm{t} + 0.0003\mathrm{A} + 0.0495\mathrm{W} + 0.0012\mathrm{d} - 0.007\mathrm{h}$													                                                                                (16)
 
-$Y_{dry}^P = -524000+0.000285I+6.54S+1.35R+18000T+2.851t+0.0296A+0.0475W+0.0928d+0.111h-0.00132tA+0.00000198Wd-0.000831td-0.11t2-0.000141A2-0.000263W2+0.00000273d2+0.000874t3+0.000000124A3+0.000000201W3-0.0000000116d3											                                                                                    (17)
+$Y_{dry}^P = -524000 + 0.000285\mathrm{I} + 6.54\mathrm{S} + 1.35\mathrm{R} + 18000\mathrm{T} + 2.851\mathrm{t} + 0.0296\mathrm{A} + 0.0475\mathrm{W} + 0.0928\mathrm{d} + 0.1110.007\mathrm{h} - 0.001320.007\mathrm{tA} + 0.000001980.007\mathrm{Wd} - 0.0008310.007\mathrm{td} - 0.110.007\mathrm{t}^2 - 0.0001410.007\mathrm{A}^2 - 0.0002630.007\mathrm{W}^2 + 0.000002730.007\mathrm{d}^2 + 0.0008740.007\mathrm{t}^3 + 0.0000001240.007\mathrm{A}^3 + 0.0000002010.007\mathrm{W}^3 - 0.00000001160.007\mathrm{d}^3$										                            (17)
 
-YwetP= -649000+0.000304I+6.35S+1.07R+0.000223T+2.451t-0.0104A+0.0611W+0.0217d+0.2h-0.000968tA+0.0000436Wd-0.000499td-0.106t2-0.0000097A2-0.000508W2+0.0000638d2+0.000849t3+0.0000000345A3+0.000000401W3-0.0000000606d3											                                                                                    (18)
+$Y_{wet}^P = -649000 + 0.000304\mathrm{I} + 6.35\mathrm{S} + 1.07\mathrm{R} + 0.000223\mathrm{T} + 2.451\mathrm{t} - 0.0104\mathrm{A} + 0.0611\mathrm{W} + 0.0217\mathrm{d} + 0.2\mathrm{h} - 0.000968\mathrm{tA} + 0.0000436\mathrm{Wd} - 0.000499\mathrm{td} - 0.106\mathrm{t}^2 - 0.0000097\mathrm{A}^2 - 0.000508\mathrm{W}^2 + 0.0000638\mathrm{d}^2 + 0.000849\mathrm{t}^3 + 0.0000000345\mathrm{A}^3 + 0.000000401\mathrm{W}^3  - 0.0000000606\mathrm{d}^3$											                                            (18)
 
 where
-YdryP is the predicted volume of water consumed in dry season; YwetP is the predicted volume of water consumed in wet season; and I, S, R, T, t, A, W, d, h are the explanatory variables. 
+$Y_{dry}^P$ is the predicted volume of water consumed in dry season; $Y_{wet}^P$ is the predicted volume of water consumed in wet season; and \mathrm{I, S, R, T, t, A, W, d, h} are the explanatory variables. 
 
 Thus, if the values of the explanatory variables are known for any households, the functional models can be used to determine volume of water consumed (in liter per day) by the households in dry season and wet season respectively. Since planning water supply requires review of water consumption and projection to the future (Charlesworth et al., 2020), these functional models are useful for planning water supply to households where there is no WDN.
 
