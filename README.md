@@ -28,7 +28,7 @@ Equation (2) can be extended to form polynomials by creating new features from t
 
 $y_2^p = \theta_1x_1^2 + \theta_2x_2^2 + \theta_3x_3^2 + \theta_4x_4^2 + \theta_5x_1x_2 + \theta_6x_3x_4 + \theta_7x_1x_3 + \theta_8x_1 + \theta_9x_2 + \theta{_1}{_0}x_3 + \theta{_1}{_1}x_4 + \theta{_1}{_2}x_5 + \theta{_1}{_3}x_6 + \theta{_1}{_4}x_7 + \theta{_1}{_5}x_8 + \theta{_1}{_6}x_9 + \theta_o$		                                                        (3)
 
-$y_3^p = \theta_1x_1^3 + \theta_2x_2^3 + \theta_3x_3^3 + \theta_4x_4^3 + \theta_5x_1_2 + \theta_6x_2^2 + \theta_7x_3_2 + \theta_8x_4_2 + \theta_9x_1x_2 + \theta{_1}{_0}x_3x_4 + \theta{_1}{_1}x_1x_3 + \theta{_1}{_2}x_1 + \theta{_1}{_3}x_2 + \theta{_1}{_4}x_3 + \theta{_1}{_5}x_4 + \theta{_1}{_6}x_5 + \theta{_1}{_7}x_6 + \theta{_1}{_8}x_7 + \theta{_1}{_9}x_8 + \theta{_2}{_0}x_9 + \theta_o$	                                                      (4)
+$y_3^p = \theta_1x_1^3 + \theta_2x_2^3 + \theta_3x_3^3 + \theta_4x_4^3 + \theta_5x_1^2 + \theta_6x_2^2 + \theta_7x_3_2 + \theta_8x_4_2 + \theta_9x_1x_2 + \theta{_1}{_0}x_3x_4 + \theta{_1}{_1}x_1x_3 + \theta{_1}{_2}x_1 + \theta{_1}{_3}x_2 + \theta{_1}{_4}x_3 + \theta{_1}{_5}x_4 + \theta{_1}{_6}x_5 + \theta{_1}{_7}x_6 + \theta{_1}{_8}x_7 + \theta{_1}{_9}x_8 + \theta{_2}{_0}x_9 + \theta_o$	                                                      (4)
 
 y4p= 1x14+ 2x24+3x34+ 4x44+θ5x13+ 6x23+7x33+ 8x43+ θ9x12+ 10x22+11x32+ 12x42+ 13x1x2+14x3x4+15x1x3+16 x1+17x2+ 18x3+19 x4+20 x5++21 x6+22x7+23 x8+24x9+o												    (5)
 
