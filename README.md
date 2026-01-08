@@ -50,7 +50,7 @@ Volume of water used per day for dry and wet seasons, represented by September t
 
 Selection of Explanatory Variables
 
-Explanatory variables are features that result in optimal model performance. Feature selection techniques measure the dependency between independent variables and dependent variable. The more the dependency, the more important the feature. In this research, explanatory variables were selected using Pearson Correlation Coefficient, which has acceptable scores between -3.0 and -9.0 for negative correlation; +3.0 and +9.0 for positive correlation (Schober, Boer and Schwarte, 2018). The correlation between the variables are given in Table 1, in which the correlation values between the explanatory variables (independent variables) and volume (dependent variable) are formatted in bold. 
+Explanatory variables are features that result in optimal model performance. Feature selection techniques measure the dependency between independent variables and dependent variable. The more the dependency, the more important the feature. In this research, explanatory variables were selected using Pearson Correlation Coefficient, which has acceptable scores between -3.0 and -9.0 for negative correlation; +3.0 and +9.0 for positive correlation (Schober, Boer and Schwarte, 2018). 
 
 Modeling Experiments
 
