@@ -26,7 +26,7 @@ $y^p = \theta_1x_1 + \theta_2x_2 + \theta_3x_3 + \theta_4x_4 + \theta_5x_5 + \th
 
 Equation (2) can be extended to form polynomials by creating new features from the variables x1… x9. Thus, second degree quadratic, third-degree cubic, fourth-degree quartic and fifth-degree quintic polynomials can be expressed respectively as follows:
 
-$y_2^p = \theta_1x_1^2 + \theta_2x_2^2 + \theta_3x_3^2 + \theta_4x_4^2 + \theta_5x_1x_2 + \theta_6x_3x_4 + \theta_7x_1x_3 + \theta_8x_1 + \theta_9x_2 + \theta{_1}{_0}x_3 + \theta{_1}{_1}x_4 + \theta{_1}{_2}x_5 + \theta{_1}{_3}x_6 + \theta{_1}{_4}x_7 + \theta{_1}{_5}x_8 + \theta{_1}{_6}x_9 + \theta_o$		                                                        (3)
+$y_2^p = \theta_1x_1^2 + \theta_2x_2^2 + \theta_3x_3^2 + \theta_4x_4^2 + \theta_5x_1x_2 + \theta_6x_3x_4 + \theta_7x_1x_3 + \theta_8x_1 + \theta_9x_2 + \theta_{10}x_3 + \theta{_1}{_1}x_4 + \theta{_1}{_2}x_5 + \theta{_1}{_3}x_6 + \theta{_1}{_4}x_7 + \theta{_1}{_5}x_8 + \theta{_1}{_6}x_9 + \theta_o$		                                                        (3)
 
 $y_3^p = \theta_1x_1^3 + \theta_2x_2^3 + \theta_3x_3^3 + \theta_4x_4^3 + \theta_5x_1^2 + \theta_6x_2^2 + \theta_7x_3^2 + \theta_8x_4^2 + \theta_9x_1x_2 + \theta{_1}{_0}x_3x_4 + \theta{_1}{_1}x_1x_3 + \theta{_1}{_2}x_1 + \theta{_1}{_3}x_2 + \theta{_1}{_4}x_3 + \theta{_1}{_5}x_4 + \theta{_1}{_6}x_5 + \theta{_1}{_7}x_6 + \theta{_1}{_8}x_7 + \theta{_1}{_9}x_8 + \theta{_2}{_0}x_9 + \theta_o$	                                                      (4)
 
