@@ -103,9 +103,9 @@ The actual and predicted average volume of water consumed per day by the househo
 
 Validation of Model Performances
 
-The validation of model performances is highlighted in Table 5 in the seasons. Visual inspection reveals that the model performance during validation is comparable to the performances during training and testing. Thus, the performances of the models were validated.  
+Visual inspection reveals that the model performance during validation is comparable to the performances during training and testing. Thus, the performances of the models were validated.  
 
-The polynomials were validated and compared to the linear models. The third-degree polynomial gives better accuracies as a functional model to be used for evaluating volume of water consumed in urban poor households. It can also be seen in Figure 2 that the models accuracy increases with increasing number of features. But the accuracy gets to a point where it begins to decrease as more features were added. This confirms what researchers have observed as one of the characteristics of ML modeling (Bellman, 2003; Pires & Branco, 2019; Ahmad & Nassif, 2022). 
+The polynomials were validated and compared to the linear models. The third-degree polynomial gives better accuracies as a functional model to be used for evaluating volume of water consumed in urban poor households. The models accuracy increases with increasing number of features. But the accuracy gets to a point where it begins to decrease as more features were added. This confirms what researchers have observed as one of the characteristics of ML modeling (Bellman, 2003; Pires & Branco, 2019; Ahmad & Nassif, 2022). 
 
 Functional Models for Predicting Household Water Consumption
 
