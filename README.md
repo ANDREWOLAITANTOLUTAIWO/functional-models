@@ -81,9 +81,9 @@ $Y = \theta_o + \theta_1\mathrm{I} + \theta_2\mathrm{S} + \theta_3\mathrm{R} + \
 
 $Y = \theta_o + \theta_1\mathrm{I} + \theta_2\mathrm{S} + \theta_3\mathrm{R} + \theta_4\mathrm{T} + \theta_5\mathrm{t} + \theta_6\mathrm{A} + \theta_7\mathrm{W} + \theta_8\mathrm{d} + \theta_9\mathrm{h} + \theta_{10}\mathrm{tA} + \theta_{11}\mathrm{Wd} + \theta_{12}\mathrm{td} + \theta_{13}\mathrm{t}^2 + \theta_{14}\mathrm{A}^2 + \theta_{15}\mathrm{W}^2 + \theta_{16}\mathrm{d}^2 + \theta_{17}\mathrm{t}^3 + \theta_{18}\mathrm{A}^3 + \theta_{19}\mathrm{W}^3 + \theta_{20}\mathrm{d}^3$                                                                (11)
 
-Y= o+θ1I+2S+3 R+4T+5t+6 A+7 W+8 d+9h+10tA+11Wd+12td+13t2+14A2+15W2+16d2+17t3+18A3+19W3+20d3+21t4+22A4+23W4+24d4	                                                                    (12)
+$Y = \theta_o + \theta_1\mathrm{I} + \theta_2\mathrm{S} + \theta_3\mathrm{R} + \theta_4\mathrm{T} + \theta_5\mathrm{t} + \theta_6\mathrm{A} + \theta_7\mathrm{W} + \theta_8\mathrm{d} + \theta_9\mathrm{h} + \theta_{10}\mathrm{tA} + \theta_{11}\mathrm{Wd} + \theta_{12}\mathrm{td} + \theta_{13}\mathrm{t}^2 + \theta_{14}\mathrm{A}^2 + \theta_{15}\mathrm{W}^2 + \theta_{16}\mathrm{d}^2 + \theta_{17}\mathrm{t}^3 + \theta_{18}\mathrm{A}^3 + \theta_{19}\mathrm{W}^3 + \theta_{20}\mathrm{d}^3$ + \theta_21\mathrm{t}^4 + \theta_22\mathrm{A}^4 + \theta_23\mathrm{W}^4 + \theta_24\mathrm{d}^4$	                                                                    (12)
 
-Y= o+θ1I+2S+3 R+4T+5t+6 A+7 W+8 d+9h+10tA+11Wd+12td+13t2+14A2+15W2+16d2+17t3+18A3+19W3+20d3+21t4+22A4+23W4+24d4+25t5+26A5+27W5+28d5								                                  (14)
+Y= \theta_o + \theta_1I + \theta_2S+3 R+4T+5t+6 A+7 W+8 d+9h+10tA+11Wd+12td+13t2+14A2+15W2+16d2+17t3+18A3+19W3+20d3+21t4+22A4+23W4+24d4+25t5+26A5+27W5+28d5								                                  (14)
 
 Coding the Model Performance Metrics
 
