@@ -66,7 +66,7 @@ The complete dataset was first one-hot encoded before it was split into training
 
 MLR models actual and predicted volume of water use using Equation (7) and Equation (8) respectively:
 
-$Y_o^(i)= 1I(i)+2S(i)+3R(i)+4 T(i)+5t(i)+6 A(i)+7 W(i)+8 d(i)+9h(i)+o$		                                                                                                                (7)
+$Y_o^{(i)}= 1I(i)+2S(i)+3R(i)+4 T(i)+5t(i)+6 A(i)+7 W(i)+8 d(i)+9h(i)+o$		                                                                                                                (7)
 
 Yp(i)= 1I(i)+2S(i)+3R(i)+4 T(i)+5t(i)+6 A(i)+7 W(i)+8 d(i)+9h(i)+o		                                                                                                                (8)
 
