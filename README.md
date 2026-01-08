@@ -16,13 +16,13 @@ Multilinear Regression (MLR)
 
 Linear regression is a technique for investigating the relationship between an independent variable or feature and a dependent variable or outcome. Linear regression model describes the relationship between a dependent variable y and independent variables x with a straight line that is defined by Equation (1):
 
-$y^p = \theta_1x+ \theta_o$	                                                                                                                                                           (1)
+$y^p = \theta_1x+ \theta_o$	                                                                                                                  (1)
 
 In this expression, y is the vector of the response values. The x symbol describes the matrix of features which the algorithm uses to predict the y vector. x is a matrix that contains only numeric values. $\theta_1$ and $\theta_o$ are parameters that the linear regression uses to create the prediction, $y^p$.
 
 For nine features the space is nine-dimensional and the regression Equation becomes Equation (2).
 
-$y^p = \theta_1x_1 + \theta_2x_2 + \theta_3x_3 + \theta_4x_4 + \theta_5x_5 + \theta_6x_6 + \theta_7x_7 + \theta_8x_8 + \theta_9x_9 + \theta_o$		                               (2)
+$y^p = \theta_1x_1 + \theta_2x_2 + \theta_3x_3 + \theta_4x_4 + \theta_5x_5 + \theta_6x_6 + \theta_7x_7 + \theta_8x_8 + \theta_9x_9 + \theta_o$(2)
 
 Equation (2) can be extended to form polynomials by creating new features from the variables x1… x9. Thus, second degree quadratic, third-degree cubic, fourth-degree quartic and fifth-degree quintic polynomials can be expressed respectively as follows:
 
