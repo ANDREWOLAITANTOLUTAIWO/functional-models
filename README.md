@@ -1,5 +1,5 @@
 INTRODUCTION
-$y = f(x) = x^2$
+
 The problem of access to clean water by urban poor households in low-income countries persists because the households are not connected to water distribution network (WDN). Hence they lack public-provided water supply in a poor sanitary environment, and are liable to suffer water-related diseases. This is especially true of the people of Nyanya-Mararaba Town in Nigeria’s Federal Capital Territory (Dada, 2024; Olokesusi et al., 2018). They seek water from different sources such as well, water vendors and borehole, and so they pay heavily for clean water, which is provided by private businesses (Chukwu, 2015; UNDP, 2015). Since urban poor households are not connected to public-provided WDN, there is no water meter and so no automatic means of gathering empirical data about the volume of water they use. Thus, it is difficult to evaluate volume of water needed for planning water supply to the households. Hence, this study aims to provide decision-makers with a tool to evaluate volume of water needed by urban poor households for planning water supply to places where there is no WDN. 
 
 THEORETICAL BACKGROUND
@@ -16,7 +16,7 @@ Multilinear Regression (MLR)
 
 Linear regression is a technique for investigating the relationship between an independent variable or feature and a dependent variable or outcome. Linear regression model describes the relationship between a dependent variable y and independent variables x with a straight line that is defined by Equation (1):
 
-y= 1x+ o	                                                                                                                                                                          (1)
+$y^p= \Theta_1x+ \Theta_o$	                                                                                                                                                           (1)
 
 In this expression, y is the vector of the response values. The x symbol describes the matrix of features which the algorithm uses to predict the y vector. x is a matrix that contains only numeric values. o and 1 are parameters that the linear regression uses to create the prediction, yp.
 
