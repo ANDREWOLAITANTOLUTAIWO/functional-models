@@ -16,17 +16,17 @@ Multilinear Regression (MLR)
 
 Linear regression is a technique for investigating the relationship between an independent variable or feature and a dependent variable or outcome. Linear regression model describes the relationship between a dependent variable y and independent variables x with a straight line that is defined by Equation (1):
 
-$y^p= \Theta_1x+ \Theta_o$	                                                                                                                                                           (1)
+$y^p= \theta_1x+ \theta_o$	                                                                                                                                                           (1)
 
 In this expression, y is the vector of the response values. The x symbol describes the matrix of features which the algorithm uses to predict the y vector. x is a matrix that contains only numeric values. o and 1 are parameters that the linear regression uses to create the prediction, yp.
 
 For nine features the space is nine-dimensional and the regression Equation becomes Equation (2).
 
-yp= 1x1+ 2x2+3 x3+4x4+ 5x5+6 x6+7x7+8 x8+9x9+θo		                                                                                                                                  (2)
+$y^p= \theta_1x_1 + \theta_2x^2 + \theta_3x^3 + \theta_4x^4 + \theta_5x^5 + \theta_6x^6 + \theta_7x^7 + \theta_8x^8 + \theta_9x^9 + \theta_o$		                               (2)
 
 Equation (2) can be extended to form polynomials by creating new features from the variables x1… x9. Thus, second degree quadratic, third-degree cubic, fourth-degree quartic and fifth-degree quintic polynomials can be expressed respectively as follows:
 
-y2p= 1x12+ 2x22+3x32+ 4x42+ 5x1x2+6x3x4+7x1x3+8 x1+9x2+ 10x3+11 x4+12 x5++13 x6+14x7+15 x8+16x9+o		                                                                                (3)
+$y_2^p= \theta_1x_1^2 + \theta_2x_2^2 + \theta_3x_3^2 + \theta_4x_4^2 + \theta_5x_1x_2 + \theta_6x_3x_4 + \theta_7x_1x_3 + \theta_8x_1 + \theta_9x_2 + \theta_10x_3 + \theta_11x_4 + \theta_12x_5 + \theta_13x_6 + \theta_14x_7 + \theta_15x_8 + \theta_16x_9 + \theta_o$		                                                                                (3)
 
 y3p= 1x13+ 2x23+3x33+ 4x43+ θ5x12+ 6x22+7x32+ 8x42+ 9x1x2+10x3x4+11x1x3+12 x1+13x2+ 14x3+15 x4+16 x5++17 x6+18x7+19 x8+20x9+o	                                                      (4)
 
