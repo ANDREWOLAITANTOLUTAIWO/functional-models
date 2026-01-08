@@ -32,7 +32,7 @@ $y_3^p = \theta_1x_1^3 + \theta_2x_2^3 + \theta_3x_3^3 + \theta_4x_4^3 + \theta_
 
 $y_4^p = \theta_1x_1^4 + \theta_2x_2^4 + \theta_3x_3^4 + \theta_4x_4^4 + \theta_5x_1^3 + \theta_6x_2^3 + \theta_7x_3^3 + \theta_8x_4^3 + \theta_9x_1^2 + \theta{_1}{_0}x_2^2 + \theta{_1}{_1}x_3^2 + \theta{_1}{_2}x_4^2 + \theta{_1}{_3}x_1x_2 + \theta{_1}{_4}x_3x_4 + \theta{_1}{_5}x_1x_3 + \theta{_1}{_6}x_1 + \theta{_1}{_7}x_2 + \theta{_1}{_8}x_3 + \theta{_1}{_9}x_4 + \theta{_2}{_0}x_5 + \theta{_2}{_1}x_6 + \theta{_2}{_2}x_7 + \theta{_2}{_3}x_8 + \theta{_2}{_4}x_9 + \theta_o$												    (5)
 
-$y_5^p = \theta_1x_1^5 + \theta_2x_2^5 + \theta_3x_3^5 + \theta_4x_4^5 + \theta_5x_1^4 + \theta_6x_2^4 + \theta_7x_3^4 + \theta_8x_4^4 + \theta_9x_1^3 + \theta{_1}{_0}x_2^3 + \theta{_1}{_1}x_3^3 + \theta{_1}{_2}x_4^3 + \theta{_1}{_3}x_1^2 + \theta{_1}{_4}x_2^2 + \theta{_1}{_5}x_3^2 + \theta{_1}{_6}x_4^2 + \theta{_1}{_7}x_1x_2 + \theta{_1}{_8}x_3x_4 + \theta{_1}{_9}x_1x_3 + \theta{_2}{_0}x_1 + \theta_+ \theta{_2}{_1}x_2 + \theta{_2}{_2}x_3 + \theta{_2}{_3}x_4 + \theta{_2}{_4}x_5 + \theta{_2}{_5}x_6 + \theta{_2}{_6}x_7 + \theta{_2}{_7}x_8 + \theta{_2}{_8}x_9 + \theta_o$	(6)
+$y_5^p = \theta_1x_1^5 + \theta_2x_2^5 + \theta_3x_3^5 + \theta_4x_4^5 + \theta_5x_1^4 + \theta_6x_2^4 + \theta_7x_3^4 + \theta_8x_4^4 + \theta_9x_1^3 + \theta{_1}{_0}x_2^3 + \theta{_1}{_1}x_3^3 + \theta{_1}{_2}x_4^3 + \theta{_1}{_3}x_1^2 + \theta{_1}{_4}x_2^2 + \theta{_1}{_5}x_3^2 + \theta{_1}{_6}x_4^2 + \theta{_1}{_7}x_1x_2 + \theta{_1}{_8}x_3x_4 + \theta{_1}{_9}x_1x_3 + \theta{_2}{_0}x_1 + \theta{_2}{_1}x_2 + \theta{_2}{_2}x_3 + \theta{_2}{_3}x_4 + \theta{_2}{_4}x_5 + \theta{_2}{_5}x_6 + \theta{_2}{_6}x_7 + \theta{_2}{_7}x_8 + \theta{_2}{_8}x_9 + \theta_o$	(6)
 
 MATERIALS AND METHODS
 
