@@ -16,7 +16,7 @@ Multilinear Regression (MLR)
 
 Linear regression is a technique for investigating the relationship between an independent variable or feature and a dependent variable or outcome. Linear regression model describes the relationship between a dependent variable y and independent variables x with a straight line that is defined by Equation (1):
 
-$y^p= \theta_1x+ \theta_o$	                                                                                                                                                           (1)
+$y^p = \theta_1x+ \theta_o$	                                                                                                                                                           (1)
 
 In this expression, y is the vector of the response values. The x symbol describes the matrix of features which the algorithm uses to predict the y vector. x is a matrix that contains only numeric values. o and 1 are parameters that the linear regression uses to create the prediction, yp.
 
