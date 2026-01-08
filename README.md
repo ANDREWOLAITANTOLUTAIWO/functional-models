@@ -66,7 +66,7 @@ The complete dataset was first one-hot encoded before it was split into training
 
 MLR models actual and predicted volume of water use using Equation (7) and Equation (8) respectively:
 
-Yo(i)= 1I(i)+2S(i)+3R(i)+4 T(i)+5t(i)+6 A(i)+7 W(i)+8 d(i)+9h(i)+o		                                                                                                                (7)
+$Y_o^(i)= 1I(i)+2S(i)+3R(i)+4 T(i)+5t(i)+6 A(i)+7 W(i)+8 d(i)+9h(i)+o$		                                                                                                                (7)
 
 Yp(i)= 1I(i)+2S(i)+3R(i)+4 T(i)+5t(i)+6 A(i)+7 W(i)+8 d(i)+9h(i)+o		                                                                                                                (8)
 
@@ -77,6 +77,20 @@ Yo(1200)= 1I(1200)+2S(1200)+3 R(1200)+4T(1200)+5t(1200)+6 A(1200)+7 W(1200)+8 d(
 Coding the Polynomials
 
 Polynomials of higher degrees – quadratic, cubic, quartic and quintic polynomials as Equation (10), Equation (11), Equation (12) and Equation (13) respectively – were coded and tested for better accuracies than linear models. 
+
+$y^p = \theta_1x_1 + \theta_2x_2 + \theta_3x_3 + \theta_4x_4 + \theta_5x_5 + \theta_6x_6 + \theta_7x_7 + \theta_8x_8 + \theta_9x_9 + \theta_o$		                               (2)
+
+Equation (2) can be extended to form polynomials by creating new features from the variables x1… x9. Thus, second degree quadratic, third-degree cubic, fourth-degree quartic and fifth-degree quintic polynomials can be expressed respectively as follows:
+
+$y_2^p = \theta_1x_1^2 + \theta_2x_2^2 + \theta_3x_3^2 + \theta_4x_4^2 + \theta_5x_1x_2 + \theta_6x_3x_4 + \theta_7x_1x_3 + \theta_8x_1 + \theta_9x_2 + \theta{_1}{_0}x_3 + \theta{_1}{_1}x_4 + \theta{_1}{_2}x_5 + \theta{_1}{_3}x_6 + \theta{_1}{_4}x_7 + \theta{_1}{_5}x_8 + \theta{_1}{_6}x_9 + \theta_o$		                                                        (3)
+
+$y_3^p = \theta_1x_1^3 + \theta_2x_2^3 + \theta_3x_3^3 + \theta_4x_4^3 + \theta_5x_1^2 + \theta_6x_2^2 + \theta_7x_3^2 + \theta_8x_4^2 + \theta_9x_1x_2 + \theta{_1}{_0}x_3x_4 + \theta{_1}{_1}x_1x_3 + \theta{_1}{_2}x_1 + \theta{_1}{_3}x_2 + \theta{_1}{_4}x_3 + \theta{_1}{_5}x_4 + \theta{_1}{_6}x_5 + \theta{_1}{_7}x_6 + \theta{_1}{_8}x_7 + \theta{_1}{_9}x_8 + \theta{_2}{_0}x_9 + \theta_o$	                                                      (4)
+
+$y_4^p = \theta_1x_1^4 + \theta_2x_2^4 + \theta_3x_3^4 + \theta_4x_4^4 + \theta_5x_1^3 + \theta_6x_2^3 + \theta_7x_3^3 + \theta_8x_4^3 + \theta_9x_1^2 + \theta{_1}{_0}x_2^2 + \theta{_1}{_1}x_3^2 + \theta{_1}{_2}x_4^2 + \theta{_1}{_3}x_1x_2 + \theta{_1}{_4}x_3x_4 + \theta{_1}{_5}x_1x_3 + \theta{_1}{_6}x_1 + \theta{_1}{_7}x_2 + \theta{_1}{_8}x_3 + \theta{_1}{_9}x_4 + \theta{_2}{_0}x_5 + \theta{_2}{_1}x_6 + \theta{_2}{_2}x_7 + \theta{_2}{_3}x_8 + \theta{_2}{_4}x_9 + \theta_o$												    (5)
+
+$y_5^p = \theta_1x_1^5 + \theta_2x_2^5 + \theta_3x_3^5 + \theta_4x_4^5 + \theta_5x_1^4 + \theta_6x_2^4 + \theta_7x_3^4 + \theta_8x_4^4 + \theta_9x_1^3 + \theta{_1}{_0}x_2^3 + \theta{_1}{_1}x_3^3 + \theta{_1}{_2}x_4^3 + \theta{_1}{_3}x_1^2 + \theta{_1}{_4}x_2^2 + \theta{_1}{_5}x_3^2 + \theta{_1}{_6}x_4^2 + \theta{_1}{_7}x_1x_2 + \theta{_1}{_8}x_3x_4 + \theta{_1}{_9}x_1x_3 + \theta{_2}{_0}x_1 + \theta{_2}{_1}x_2 + \theta{_2}{_2}x_3 + \theta{_2}{_3}x_4 + \theta{_2}{_4}x_5 + \theta{_2}{_5}x_6 + \theta{_2}{_6}x_7 + \theta{_2}{_7}x_8 + \theta{_2}{_8}x_9 + \theta_o$	(6)
+
+
 
 Y= o+θ1I+2S+3 R+4T+5t+6 A+7 W+8 d+9h+10tA+11Wd+12td+13t2+14A2+15W2+16d2									                                                                                            (10)
 
