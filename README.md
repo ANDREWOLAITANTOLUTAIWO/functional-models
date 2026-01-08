@@ -111,11 +111,11 @@ Functional Models for Predicting Household Water Consumption
 
 Based on the above modeling and evaluation, functional models that can be used to predict volume of water consumed in dry and wet seasons in any urban poor households were developed. Parameters (that is, intercept and coefficients of the nine variables) were substituted into Equation (7) to give Equation (15) and Equation (16) respectively. Since third-degree cubic polynomial gave better accuracies, values of the parameters in dry and wet seasons were determined and substituted into the third-degree cubic polynomial model in Equation (13) to form Equation (17) and Equation (18) respectively, which are the functional models for predicting volume of water consumed in urban poor households in dry and wet seasons. 
 
-YdryP= 162+0.0003I+5.39S+0.331R+1.80T-2.01t-0.0003A+0.0804W+0.0142d-0.0094h												                                                                                    (15)
+$Y_{dry}^P = 162 + 0.0003\mathrm{I} + 5.39\mathrm{S} + 0.331\mathrm{R} + 1.80\mathrm{T} - 2.01\mathrm{t} - 0.0003\mathrm{A} + 0.0804\mathrm{W} + 0.0142\mathrm{d} - 0.0094\mathrm{h}$    						                                                                                    (15)
 
-YwetP= 15.4+0.0003I+5.24 S+0.108R+4.43T-2.03t+0.0003A+0.0495W+0.0012d-0.007h													                                                                                (16)
+$Y_{wet}^P = 15.4 + 0.0003\mathrm{I} + 5.24\mathrm{S} + 0.108\mathrm{R} + 4.43\mathrm{hT} - 2.03\mathrm{t} + 0.0003\mathrm{A} + 0.0495\mathrm{W} + 0.0012\mathrm{d} - 0.007\mathrm{h}$													                                                                                (16)
 
-YdryP= -524000+0.000285I+6.54S+1.35R+18000T+2.851t+0.0296A+0.0475W+0.0928d+0.111h-0.00132tA+0.00000198Wd-0.000831td-0.11t2-0.000141A2-0.000263W2+0.00000273d2+0.000874t3+0.000000124A3+0.000000201W3-0.0000000116d3											                                                                                    (17)
+$Y_{dry}^P = -524000+0.000285I+6.54S+1.35R+18000T+2.851t+0.0296A+0.0475W+0.0928d+0.111h-0.00132tA+0.00000198Wd-0.000831td-0.11t2-0.000141A2-0.000263W2+0.00000273d2+0.000874t3+0.000000124A3+0.000000201W3-0.0000000116d3											                                                                                    (17)
 
 YwetP= -649000+0.000304I+6.35S+1.07R+0.000223T+2.451t-0.0104A+0.0611W+0.0217d+0.2h-0.000968tA+0.0000436Wd-0.000499td-0.106t2-0.0000097A2-0.000508W2+0.0000638d2+0.000849t3+0.0000000345A3+0.000000401W3-0.0000000606d3											                                                                                    (18)
 
